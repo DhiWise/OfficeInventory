@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/officeinventoryapp/app/BuildConfig.java
+ com.officeinventoryapp.app.BuildConfig

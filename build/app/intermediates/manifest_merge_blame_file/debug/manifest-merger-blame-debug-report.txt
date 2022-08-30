@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.officeinventoryapp.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity_plus] /home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:connectivity_plus] /home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16
+17    <application
+17-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:12:5-46:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /home/karansantra/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:14:9-43
+21        android:label="officeinventoryapp" >
+21-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:13:9-43
+22        <activity
+22-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:15:9-40:20
+23            android:name="com.officeinventoryapp.app.MainActivity"
+23-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:16:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:19:13-163
+25            android:exported="true"
+25-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:22:13-36
+26            android:hardwareAccelerated="true"
+26-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:20:13-47
+27            android:launchMode="singleTop"
+27-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:17:13-43
+28            android:theme="@style/LaunchTheme"
+28-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:18:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:21:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:27:13-30:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:28:15-70
+39                android:resource="@style/NormalTheme" />
+39-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:29:15-52
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <intent-filter>
+47-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:36:13-39:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:37:17-68
+48-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:37:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:38:17-76
+50-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:38:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:43:9-45:33
+58            android:name="flutterEmbedding"
+58-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:44:13-44
+59            android:value="2" />
+59-->/home/karansantra/AUseCaseFlutterProject/myOfficeInventoryApp/android/app/src/main/AndroidManifest.xml:45:13-30
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] /home/karansantra/.gradle/caches/transforms-2/files-2.1/25083cf9d1a8f2fc7053b5b4b40fb8bf/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+67    </application>
+68
+69</manifest>
