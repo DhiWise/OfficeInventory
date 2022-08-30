@@ -43,10 +43,7 @@ Here is my **Office Inventory** application.
 4. Total Assign Devices and Furniture to Members.
 
 # Screenshots
-![demo](/Screenshots/SplashScreen.jpg)
-![demo](/Screenshots/CategoryScreen.jpg)
-![demo](/Screenshots/AllEmployeeScreen.jpg)
-![demo](/Screenshots/AddEmployeeScreen.jpg)
+![demo](/Screenshots/officeInventory.png)
 # Setup
 
 For run this project you nedd to do these following 
