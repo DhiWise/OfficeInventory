@@ -1,5 +1,12 @@
 # Office Inventory
 
+<div>
+  <h1 align="center">Getting Started with Flutter 🚀 </h1>
+  <strong>
+    Generated with ❤️ from Dhiwise
+  </strong>
+</div>
+
 # Build an Office Inventory with AirTable APIs
 
 Companies have access to more data than ever before in today's digital economy.
@@ -60,19 +67,17 @@ Follow the steps.
 
 ```sh
 
-$ git clone
+$ git clone https://github.com/DhiWise/OfficeInventory
 
-[https://github.com/](https://github.com/).....
-
-$ cd OfficeInventory  //comment
+$ cd OfficeInventory
 
 ```
 
 ## Install Dependencies    
 
-flutter pub upgrade
+```flutter pub upgrade```
 
-flutter pub get
+```flutter pub get```
 
 ## Change API Key
 
@@ -84,18 +89,11 @@ Add your Base ID in API callback URL ``` lib/data/apiClients/api_client.dart ```
 
 ## Running the App    
 
-flutter run
+```flutter run```
 
 #### 2. Set Account URL In Following Files
 
 `lib/data/apiClient/api_client.dart`
-
-<div>
-  <h1 align="center">Getting Started with Flutter 🚀 </h1>
-  <strong>
-    Generated with ❤️ from Dhiwise
-  </strong>
-</div>
 
 ## Version of Technologies
 
